@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: silver;
+}
+h1{
+    text-align: center;
+    margin: 50px 0;
+    font-size: 78px;
+    color: #fefefe;
+}
+/* Form  Styling */
+button{
+    margin: 0 auto;
+    width: 200px;
+    height: 50px;
+    display: block;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 16px;
+}
+button:hover{
+    background-color: #000;
+    color: #fff;
+}
+form{
+    /* position: absolute; */
+    background-color: #fff;
+    width: 500px;
+    min-height: 460px;
+    margin: 80px auto;
+    display: none;
+    flex-direction: column;
+    border-radius: 3px;
+}
+input{
+    /* width: 200px;
+    height: 50px; */
+    margin: 0 20px;
+    height: 40px;;
+}
+label:first-child{
+    margin-top: 40px;
+}
+label{
+    margin: 10px 20px;
+}
+.checkboxDiv{
+    display: flex;
+}
+#readCheck{
+    margin: 10px 20px;;
+}
+.formCheckBox{
+    margin: 0px;
+}
+.btn-add{
+    margin: 0 20px;
+}
+.btn-cancel{
+    margin: 0 20px;
+}
+.btnDiv{
+    display: flex;
+}
+.btn-add:hover{
+    background-color: green;
+    border: 1px solid green
+}
+.btn-cancel:hover{
+    background-color: red;
+    border: 0px;
+}
+small{
+    margin: 5px 20px;
+    color: red;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+p{
+    margin: 30px;
+}
+.title{
+    font-size: 40px;
+}
+.checkContainer{
+    display: flex;
+}
+.isReadStyle{
+    margin: 10px 0px 10px 120px; 
+}
+
+.fa{
+    color: red;
+}
+table{
+    width: 1100px;
+    margin-top: 50px;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+th{
+    margin: 0;
+    border: 4px solid #000;
+    padding: 15px;
+    border-collapse: collapse;
+}
+tr, td{
+    border-collapse: collapse;
+    border: 4px solid #fff;
+    word-wrap: break-word;
+    padding: 15px;
+}   
+.isReadBox{
+    display: table;
+    margin: 0 auto;
+    filter: hue-rotate(120deg);
+}
+i{
+    width: 100%;
+    text-align: center;
+}
+i:hover, .isReadBox:hover{
+    cursor: pointer;
+}

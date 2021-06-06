@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <h1>LIBRARY</h1>
+    <button>Add book</button>
+    <div class="container">
+        <table>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Pages</th>
+            <th>Read</th>
+            <th>Delete</th>
+        </table>
+    </div>
+   
+    <form action="" method="">
+        <label for="title">Title</label>
+        <input type="text" id="title"  required >
+        <small ></small>
+        <label for="author">Author</label>
+        <input type="text" id="author" required >
+        <small ></small>
+        <label for="Page">Pages</label>
+        <input type="number" id="pages" min="0" max=100000 required>
+        <small ></small>
+        <div class="checkboxDiv">
+            <label for="isRead" id="readCheck">Read</label>
+            <input type="checkbox" class="formCheckBox">
+        </div>
+        <div class="btnDiv">    
+            <button class="btn-add" type="submit">ADD </button>
+            <button class="btn-cancel" type="submit">CANCEL</button>
+        </div>
+    </form>
+    <script src="main.js"></script>
+</body>
+</html>
